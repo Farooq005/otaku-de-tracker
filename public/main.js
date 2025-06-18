@@ -1,4 +1,7 @@
-let currentUser = null;
+window.onload = () => {
+  // your existing JS code here
+
+  let currentUser = null;
 
 // UI elements (add these IDs in HTML)
 const loginBtn = document.getElementById('loginBtn');
@@ -46,3 +49,6 @@ completeBtn.onclick = () => {
     });
   });
 };
+};
+
+
